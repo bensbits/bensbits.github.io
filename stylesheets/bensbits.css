@@ -96,3 +96,22 @@ body {
     background-image: url("../images/bensbits-light.jpg");
     background-size: cover;
 }
+
+p.h {
+    color: #7c334f;
+    font-size: 1.5em;
+    font-family: open sans;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+}
+
+p.l {
+    color: blue;
+    font-size: 1.3em;
+/*    font-family: open sans;*/
+    font-weight: bold;
+    margin:0;
+    padding:0;
+    padding-top: 0.3em;
+}
