@@ -1,0 +1,98 @@
+/*****************************************************************************\
+* bensbits.css :: stylesheet overrides                                        *
+* --------------------------------------------------------------------------- *
+* These tweaks are for the GitHub Merlot theme.                               *
+* The Merlot theme is currently used for this Account Portal.                 *
+\*****************************************************************************/
+
+div.shell {
+  width: 800px;
+}
+
+header h1 {
+/*  font-style: italic;*/
+  text-transform: none;
+}
+
+header h2 {
+  background-color: #7c334f;
+  font: bold /*italic*/ 1em/1.5 Georgia, Times, “Times New Roman”, serif;
+  color: #e69b95;
+  padding-bottom: 14px;
+  margin-top: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+/*  font-family: Georgia, Times, “Times New Roman”, serif;*/
+  text-align: center;
+}
+
+span.banner-fix {
+  width: 800px;
+}
+
+p {
+  text-align: center;
+/*  font-style: italic;*/
+}
+
+table {
+  border-bottom: 0px solid #bdb6ad;
+}
+
+th {
+  text-align: left;
+}
+
+th {
+  display: table-cell;
+  padding: 2px 10px;
+  border: solid #ece4d8;
+  border-width: 0 2px 2px 0;
+  color: #cd596b;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: inherit;
+  font-style: italic;
+}
+
+td {
+  font-style: italic;
+}
+
+footer {
+  background: none;
+}
+
+section#downloads,
+div#no-downloads {
+  background: none;
+}
+
+footer span.ribbon-inner a {
+  bottom: 0px;
+  font-family: Georgia;
+  text-transform: none;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+footer span.ribbon-inner p {
+  padding-top: 4px;
+  font: bold italic 14px/1 Georgia, Times, “Times New Roman”, serif;
+}
+
+.header-level-1 {
+    font-style: normal;
+      border: initial;
+      padding: 0px;
+      margin: 0em;
+      margin-top: 1em;
+      font-size: 1.5em;
+}
+
+body {
+    background-image: url("../images/bensbits-light.jpg");
+    background-size: cover;
+}
